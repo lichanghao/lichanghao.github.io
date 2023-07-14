@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal Webpage"
+title                    : "Changhao's Personal Webpage"
 title_separator          : "-"
 name                     : &name "Changhao Li"
 description              : &description "Ph.D. candidate in Penn State University"
