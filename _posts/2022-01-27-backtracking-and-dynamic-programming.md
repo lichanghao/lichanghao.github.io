@@ -5,6 +5,8 @@ permalink:         /posts/2021/01/27/backtracking-and-dynamic-programming
 tags:              Programming
 ---
 
+This is a quick note recording my coding practice.
+
 # The permutation problem
 
 Given an array nums of **distinct** integers, return all the possible permutations. You can return the answer in any order.
