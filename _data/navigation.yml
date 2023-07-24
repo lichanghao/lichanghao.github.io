@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/ 
+  # - title: "Publications"
+  #   url: /publications/
 
   - title: "CV"
     url: /cv/
-    
-  - title: "My BiliBili"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
+
+  # - title: "My BiliBili"
+  #   url: /teaching/
+
+  # - title: "Portfolio"
+  #   url: /portfolio/
+
   - title: "Blog Posts"
     url: /year-archive/
