@@ -1,14 +1,8 @@
 ---
-layout:            post
-title:             "Two-Phase Diffusive Interface Model of Biological Membranes"
-date:              2022-12-07 19:27:00 +0800
+title:             "Two-phase membrane diffusive interface model"
+date:              2022-12-07
+permalink:         /posts/2022/12/07/two-phase-membrane-diffusive-interface-model
 tags:              Research
-comments:			  true
-category:          Features
-catalog:    		  true
-header-img: 		  "img/post-bg-e2e-ux.jpg"
-header-mask:       0.3
-author:            Changhao Li
 ---
 
 This is the development log for a project I was recently working on.
@@ -45,5 +39,3 @@ $$ E_{el}(\phi, \eta) = \int_{\Omega} \frac{k(\eta)}{2\epsilon}(\epsilon\Delta\p
 where $k(\eta)$ and $c_0(\eta)$ give constitutive relation for different phases. The two parameter create freedom for a variety of different physical problems.
 
 In real world, membrane is easy to bend but difficult to stretch. Also, closed biomembrane always keep nearly constant volume becaue of osmotic pressure. We further add two energy penalty term to model the constaint on surface area and the total volume, written as:
-
-

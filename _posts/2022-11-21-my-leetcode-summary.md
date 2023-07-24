@@ -1,14 +1,8 @@
 ---
-layout:            post
 title:             "My LeetCode Summary"
-date:              2022-11-21 16:27:00 +0800
+date:              2022-11-21
+permalink:         /posts/2022/11/21/my-leetcode-summary
 tags:              Programming
-comments:			  true
-category:          Features
-catalog:    		  true
-header-img: 		  "img/post-bg-e2e-ux.jpg"
-header-mask:       0.3
-author:            Changhao Li
 ---
 
 My first glance at [LeetCode](https://leetcode.com/problemset/all/) is in my last year in college. Backing to that time, I was exchanging in the University of Tokyo for the whole semester, and luckily have some toy reserach work to do. Then, I heard something very bad happened on my old friend and I also got stucked on the research project. I feel extremely gerieved and lost at that time. This is when the LeetCode idea comes to me, because it is conceptually simple and needs tons of efforts to be skillful. In other words, I need something to distract myself. I always take LeetCode as a way of recreation, so that I can really concentrate on something, forget about sorrows, and get some positive feedbacks.
@@ -51,6 +45,6 @@ Mindset (Disclamer: every article in this category needs years of practice):
 
 ## In the end
 
-In my observation, the most part of the life is chaos and flutuating. Good friends might be finally enemies. Intimate couples might finally be strangers. Relation between people is so unstable that a single casual word or action might destroy everything. 
+In my observation, the most part of the life is chaos and flutuating. Good friends might be finally enemies. Intimate couples might finally be strangers. Relation between people is so unstable that a single casual word or action might destroy everything.
 
 Life is about lost and gain, but knowledge seems never turn me down. Learning something always makes me feel not only "oh I am still useful" but also serves as one of the important purpose of my life.
