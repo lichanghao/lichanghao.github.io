@@ -12,4 +12,4 @@ I am currently a fifth-year Ph.D. student in Penn State University, Department o
 
 News
 ------
-Jul 23 2023: I transferred the old blog posts to this new webpage. Thanks for the author of academicpages/academicpages.github.io providing the fantastic template.
+*Jul 23 2023*: I transferred the old blog posts to this new webpage. Thanks for the author of [academicpages.github.io](https://github.com/academicpages/academicpages.github.io) providing the fantastic template.
