@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a fifth-year Ph.D. student in Penn State University, Department of Engineering Science and Mechanics. My study area is Theoretical and Computational Mechanics, using continuum and coarse-grained modeling to explore highly interdisciplinary problems in Material Science and Biology.
+I am currently a fifth-year Ph.D. student in Penn State University, Department of Engineering Science and Mechanics. My study area is Theoretical and Computational Mechanics, using continuum and coarse-grained modeling to explore highly interdisciplinary problems in Mechanics, Material Science and Biology.
 
 News
 ------

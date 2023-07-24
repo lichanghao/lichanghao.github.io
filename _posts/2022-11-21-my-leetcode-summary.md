@@ -1,5 +1,5 @@
 ---
-title:             "My LeetCode Summary"
+title:             "My LeetCode summary"
 date:              2022-11-21
 permalink:         /posts/2022/11/21/my-leetcode-summary
 tags:              Programming
