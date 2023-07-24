@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 {% include base_path %}
-[PDF for my CV (Jul 24, 2023)](http://academicpages.github.io/files/cv.pdf)
+[PDF for my CV (Jul 24, 2023)](http://lichanghao.github.io/files/cv.pdf)
