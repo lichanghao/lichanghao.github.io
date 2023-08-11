@@ -35,7 +35,7 @@ Note that the Equation (\ref{eq5}) is often replaced by
 
 $$ \nabla\cdot(\sigma \nabla\phi + z_1eD_1\nabla c_1 + z_2eD_2\nabla c_2) = 0, \label{eq6}\tag6 $$
 
-where $\sigma = \sum_i\frac{z_iec_i}{k_{\rm{B}}T}$ is the total electronic conductivity. This equation gives local current balance, where $\boldsymbol{J}_{\rm{elec}} = \sigma \nabla\phi$ is the conductive current density and $\boldsymbol{J}_{\rm{diff}} = \sum_iz_ieD_i\nabla c_i$ is the diffusive current density. Note that, combined with Equation (\ref{eq3}-\ref{eq4}), Equation (\ref{eq6}) is simply $z_1e\frac{\partial c_1}{\partial t} + z_2e\frac{\partial c_2}{\partial t} = 0$.
+where $\sigma = \sum_i\frac{z_iec_i}{k_{\rm{B}}T}$ is the total electronic conductivity. This equation gives local current balance, where $\mathbf{J}_{\rm{elec}} = \sigma \nabla\phi$ is the conductive current density and $\mathbf{J}_{\rm{diff}} = \sum_iz_ieD_i\nabla c_i$ is the diffusive current density. Note that, combined with Equation (\ref{eq3}-\ref{eq4}), Equation (\ref{eq6}) is simply $z_1e\frac{\partial c_1}{\partial t} + z_2e\frac{\partial c_2}{\partial t} = 0$.
 
 Actually Equation (\ref{eq5}) and Equation (\ref{eq6}) is not mathematically compatible. In most of literature, Equation (\ref{eq3}-\ref{eq4}) is coupled with Equation (\ref{eq5}) if the model focuses on $\tau_{\rm{elec}}$, while coupled Equation (\ref{eq6}) for $\tau_{\rm{diff}}$. By intuition, there should not have any incompatible equations and any timescale should be included in Maxwell equations. 
 
