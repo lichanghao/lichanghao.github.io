@@ -1,36 +1,15 @@
 ---
-title: "Biofilms as self-shaping growing nematics"
-excerpt: "We combine state-of-art single cell imaging, continuum mechanics, and agent-based modeling to systematically investigate the growth dynamics of 3D E. coli biofilms. <br/><img src='/images/biofilm_nature_physics_fig_1.png'>"
+title: "Machine learning traction force maps of cell monolayers"
+excerpt: "We developed a machine learning model to predict traction force maps for contractile cell monolayers. <br/><img src='/images/ML_TFM_arxiv_fig_1.jpg'>"
 collection: portfolio
 ---
 
-[Check PDF for the paper](http://lichanghao.github.io/files/Biofilms_as_self-shaping_growing_nematics.pdf)
+[Check PDF for the paper](http://lichanghao.github.io/files/Machine_learning_traction_force_maps_of_cell_monolayers.pdf)
 
 **Abstract:**
 
-Active nematics are the nonequilibrium analog of passive liquid crystals in which anisotropic units
-consume free energy to drive emergent behavior. Similar to liquid crystal (LC) molecules in
-displays, ordering and dynamics in active nematics are sensitive to boundary conditions; however,
-unlike passive liquid crystals, active nematics, such as those composed of living matter, have the
-potential to regulate their boundaries through self-generated stresses. Here, using bacterial
-biofilms confined by a hydrogel as a model system, we show how a three-dimensional, living
-nematic can actively shape itself and its boundary in order to regulate its internal architecture
-through growth-induced stresses. We show that biofilms exhibit a sharp transition in shape from
-domes to lenses upon changing environmental stiffness or cell-substrate friction, which is
-explained by a theoretical model considering the competition between confinement and interfacial
-forces. The growth mode defines the progression of the boundary, which in turn determines the
-trajectories and spatial distribution of cell lineages. We further demonstrate that the evolving
-boundary defines the orientational ordering of cells and the emergence of topological defects in
-the interior of the biofilm. Our findings reveal novel self-organization phenomena in confined
-active matter and provide strategies for guiding the development of programmed microbial
-consortia with emergent material properties.
+Cellular force transmission across a hierarchy of molecular switchers is central to mechanobiological responses. However, current cellular force microscopies suffer from low throughput and resolution. Here we introduce and train a generative adversarial network (GAN) to paint out traction force maps of cell monolayers with high fidelity to the experimental traction force microscopy (TFM). The GAN analyzes traction force maps as an image-to-image translation problem, where its generative and discriminative neural networks are simultaneously cross-trained by hybrid experimental and numerical datasets. In addition to capturing the colony-size and substrate-stiffness dependent traction force maps, the trained GAN predicts asymmetric traction force patterns for multicellular monolayers seeding on substrates with stiffness gradient, implicating collective durotaxis. Further, the neural network can extract experimentally inaccessible, the hidden relationship between substrate stiffness and cell contractility, which underlies cellular mechanotransduction. Trained solely on datasets for epithelial cells, the GAN can be extrapolated to other contractile cell types using only a single scaling factor. The digital TFM serves as a high-throughput tool for mapping out cellular forces of cell monolayers and paves the way toward data-driven discoveries in cell mechanobiology.
 
 **Citation:**
 
-Nijjer, J., Kothari, M., Li, C., Henzel, T., Zhang, Q., Tai, J.S.B., Zhou, S., Zhang, S., Cohen, T. and Yan, J., 2022. Biofilms as self-shaping growing nematics. arXiv preprint arXiv:2210.03608.
-
-**Agent-based simulations for soft confinements:**
-<iframe width="800" height="300" src="/files/biofilm_3d_soft.mp4" frameborder="0" allowfullscreen></iframe>
-
-**Agent-based simulations for rigid confinements:**
-<iframe width="800" height="300" src="/files/biofilm_3d_rigid.mp4" frameborder="0" allowfullscreen></iframe>
+Li, C., Feng, L., Park, Y.J., Yang, J., Li, J. and Zhang, S., 2023. Machine learning traction force maps of cell monolayers. arXiv preprint arXiv:2304.10065.
