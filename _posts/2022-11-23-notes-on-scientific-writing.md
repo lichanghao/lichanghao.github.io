@@ -5,6 +5,8 @@ permalink:         /posts/2022/11/23/notes-on-scientific-writing
 tags:              Scientific Writing
 ---
 
+This post contains some cherry-picked information for writing scientific papers.
+
 Recently I has been crazily writing papers for previously stacked unpublished works, and today just got one paper rejected by the editor of *Nature Communications*. When I am reading the highly-cited paper on prestigous journals such as *Nature*, *Science*, *PNAS*, I am always impressed by their efforts and skills shown in writing and figures. Their wording is so clear and fine-tuned, and their figures are so rich and well-designed. I always try to imitate their styles but can not really approach their quality. However, I still observed some good characteristics shared by those impressive papers.
 
 ## Updates on 12/14/2022
