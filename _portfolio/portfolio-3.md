@@ -7,4 +7,11 @@ Citation:
 
 Nijjer, J., Kothari, M., Li, C., Henzel, T., Zhang, Q., Tai, J.S.B., Zhou, S., Zhang, S., Cohen, T. and Yan, J., 2022. Biofilms as self-shaping growing nematics. arXiv preprint arXiv:2210.03608.
 
-[PDF from](http://lichanghao.github.io/files/Biofilms_as_self-shaping_growing_nematics.pdf)
+Agent-based simulations for soft confinements:
+<iframe width="500" height="300" src="http://lichanghao.github.io/files/biofilm_3d_soft.mp4" frameborder="0" allowfullscreen></iframe>
+
+Agent-based simulations for rigid confinements:
+<iframe width="500" height="300" src="http://lichanghao.github.io/files/biofilm_3d_rigid.mp4" frameborder="0" allowfullscreen></iframe>
+
+
+[PDF](http://lichanghao.github.io/files/Biofilms_as_self-shaping_growing_nematics.pdf)
