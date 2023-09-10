@@ -1,6 +1,6 @@
 ---
 title: "Physical forces guide curvature sensing and cell migration mode bifurcating"
-excerpt: "We developed a minimal model showing the positive feedback loop for mammalian cells sensing and guided by curvature. <br/><img src='/images/liquid_metal_AM_fig_1.jpg'>"
+excerpt: "We developed a minimal model showing the positive feedback loop for mammalian cells sensing and guided by curvature. <br/><img src='/images/cell_migration_PNAS_Nexus_fig_1.jpg'>"
 collection: portfolio
 ---
 
