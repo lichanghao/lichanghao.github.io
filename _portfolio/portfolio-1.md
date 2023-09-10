@@ -1,5 +1,5 @@
 ---
-title: "Biofilms as self-shaping growing nematics"
+title: "Biofilms as self-shaping growing nematics (Nature Physics)"
 excerpt: "We combine state-of-art single cell imaging, continuum mechanics, and agent-based modeling to systematically investigate the growth dynamics of 3D E. coli biofilms. <br/><img src='/images/biofilm_nature_physics_fig_1.jpg'>"
 collection: portfolio
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Mechano-lithography: stress anisotropy driven nematic order in growing three-dimensional bacterial biofilms"
+title: "Mechano-lithography: stress anisotropy driven nematic order in growing three-dimensional bacterial biofilms (Arxiv)"
 excerpt: "We throughly discussed the stress-driven order mechanism in 3D E. coli biofilms. <br/><img src='/images/biofilm_arxiv_fig_1.jpg'>"
 collection: portfolio
 ---
