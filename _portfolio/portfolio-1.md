@@ -1,7 +1,17 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Biofilms as self-shaping growing nematics"
+excerpt: "We combine state-of-art single cell imaging, continuum mechanics, and agent-based modeling to systematically investigate the growth dynamics of 3D E. coli biofilms. <br/><img src='/images/biofilm_nature_physics_fig_1.png'>"
 collection: portfolio
 ---
+Citation:
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Nijjer, J., Kothari, M., Li, C., Henzel, T., Zhang, Q., Tai, J.S.B., Zhou, S., Zhang, S., Cohen, T. and Yan, J., 2022. Biofilms as self-shaping growing nematics. arXiv preprint arXiv:2210.03608.
+
+Agent-based simulations for soft confinements:
+<iframe width="500" height="300" src="http://lichanghao.github.io/files/biofilm_3d_soft.mp4" frameborder="0" allowfullscreen></iframe>
+
+Agent-based simulations for rigid confinements:
+<iframe width="500" height="300" src="http://lichanghao.github.io/files/biofilm_3d_rigid.mp4" frameborder="0" allowfullscreen></iframe>
+
+
+[Check PDF for the paper](http://lichanghao.github.io/files/Biofilms_as_self-shaping_growing_nematics.pdf)
