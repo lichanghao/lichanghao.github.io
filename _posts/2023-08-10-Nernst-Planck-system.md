@@ -1,7 +1,7 @@
 ---
 title:             "Poisson-Nernst-Planck-system"
 date:              2023-08-10
-permalink:         /posts/2023/08/10/Poisson-Nernst-Planck-system
+permalink:         /posts/2023/08/10/Nernst-Planck-system
 tags:              Research
 ---
 
