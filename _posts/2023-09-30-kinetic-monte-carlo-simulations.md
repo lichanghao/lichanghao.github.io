@@ -1,7 +1,7 @@
 ---
 title:             "Computational modeling of plant cell wall creep behaviors"
 date:              2023-08-10
-permalink:         /posts/2023/08/10/Poisson-Nernst-Planck-system
+permalink:         /posts/2023/09/30/kinetic-monte-carlo-simulations
 tags:              Research
 ---
 
