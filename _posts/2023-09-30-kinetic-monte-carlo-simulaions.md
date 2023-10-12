@@ -31,7 +31,7 @@ $$ \frac{\partial c_1}{\partial t} = \nabla \cdot \left\{ D_1\left[\nabla c_1 + 
 
 $$ \frac{\partial c_2}{\partial t} = \nabla \cdot \left\{ D_2\left[\nabla c_2 + {z_2e\over{k_\text{B}T}}c_2 \left( \nabla \phi \right) \right] \right\} \label{eq4}\tag4 ,$$
 
-$$ -\nabla\cdot(\epsilon \nabla\phi) = z_1ec_1+z_2ec_2. \label{eq5}\tag5 $$
+$$ \nabla\cdot(\epsilon \nabla\phi) = z_1ec_1+z_2ec_2. \label{eq5}\tag5 $$
 
 Note that the Equation (\ref{eq5}) is often replaced by
 
@@ -41,32 +41,4 @@ where $\sigma = \sum_i\frac{z_iec_i}{k_{\rm{B}}T}$ is the total electronic condu
 
 Actually Equation (\ref{eq5}) and Equation (\ref{eq6}) is not mathematically compatible. In most of literature, Equation (\ref{eq3}-\ref{eq4}) is coupled with Equation (\ref{eq5}) if the model focuses on $\tau_{\rm{elec}}$, while coupled Equation (\ref{eq6}) for $\tau_{\rm{diff}}$. By intuition, there should not have any incompatible equations and any timescale should be included in Maxwell equations.
 
-## Subtle differences between two simplifications
-
-Let's go back to the classical derivation of electrostatic balance. Consider the following problem where the free charge flows in a conductor:
-
-$$ -\nabla\cdot(\epsilon\nabla\phi) = \rho, \label{eq7}\tag7 $$
-
-$$ \nabla\cdot(\sigma\nabla\phi) = \frac{\partial\rho}{\partial t}. \label{eq8}\tag8 $$
-
-We can easily regroup the equation sets into:
-
-$$ \frac{\partial \rho}{\partial t} = -\frac{\sigma}{\epsilon}\rho, \label{eq9}\tag9 $$
-
-and then, the general solution for Equation (\ref{eq8}) is $\rho(\mathbf{x}, t) = \exp(-\frac{\epsilon}{\sigma}t)f(\mathbf{x})$, where $f$ is only the function of space. This general solution indicates, the dynamics of the free charge density is exponential decay, with the timescale $\tau_{\rm{elec}} = \frac{\epsilon}{\sigma}$. Again, in the device level of simulations, we focus on longer time scale $\tau_{\rm{diff}} >> \tau_{\rm{elec}}$. And in this limit, we have the steady constraints $\rho = z_1ec_1 + z_2ec_2 = 0$, and $\frac{\partial \rho}{\partial t} = 0$. Substitute the steady condition into Equation (\ref{eq5}) and Equation (\ref{eq6}), we get
-
-$$ -\nabla\cdot(\epsilon\nabla\phi) = 0, \label{eq10}\tag{10} $$
-
-$$ z_1e\frac{\partial c_1}{\partial t} + z_2e\frac{\partial c_2}{\partial t} = 0. \label{eq11}\tag{11} $$
-
-If we close observe Equation (\ref{eq10}) and Equation (\ref{eq11}), we can see the subtlety that they are redundant in the most general cases. Equation (\ref{eq11}) is originated from the steady state assumption, and Equation (\ref{eq10}) or the Poisson equation actually governs the dynamics of the electrostatic potential. Then why we have this compatibility? This is because the oversimplification - both the permitivity $\epsilon$ and the conductivity $\sigma$ are functions of the concentrations $c_1$ and $c_2$.
-
-Therefore, the strict PDEs describing the migration-diffusion effects in solutions should be:
-
-$$ \frac{\partial c_1}{\partial t} = \nabla \cdot \left\{ D_1\left[\nabla c_1 + {z_1e\over{k_\text{B}T}}c_1 \left( \nabla \phi \right) \right] \right\} \label{eq12}\tag{12} ,$$
-
-$$ \frac{\partial c_2}{\partial t} = \nabla \cdot \left\{ D_2\left[\nabla c_2 + {z_2e\over{k_\text{B}T}}c_2 \left( \nabla \phi \right) \right] \right\} \label{eq13}\tag{13} ,$$
-
-$$ -\nabla\cdot(\epsilon(c_1, c_2) \nabla\phi) = z_1ec_1+z_2ec_2. \label{eq14}\tag{14} $$
-
-This PDE set can be applied to all timescale. Considering the real computational cost solving the equations, we can assume: (1) $\rho = z_1ec_1 + z_2ec_2 = 0$ if we don't care the balance process of free charges. (2) $\frac{\partial c_1}{\partial t} = \frac{\partial c_2}{\partial t} = 0$ if we don't care the diffusion process.
+Why? I am reading textbooks of electrodynamics trying to find answers.
