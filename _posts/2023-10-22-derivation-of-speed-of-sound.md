@@ -23,7 +23,7 @@ Why we are bothering do this transformation? First, we need to explicitly introd
 
 $$ (-c+\mathrm{d}v)(\rho+\mathrm{d}\rho) = -c\rho, \label{eq1}\tag1 $$
 
-$$ (-c+\mathrm{d}v)^2(\rho+\mathrm{d}\rho) + (p+\mathrm{dp}) = c^2\rho + p, \label{eq2}\tag2 $$
+$$ (-c+\mathrm{d}v)^2(\rho+\mathrm{d}\rho) + (p+\mathrm{d}p) = c^2\rho + p, \label{eq2}\tag2 $$
 
 where the first equation gives $c\mathrm{d}\rho=\rho\mathrm{d}v$, and the second gives $c\rho\mathrm{d}v=\mathrm{d}p$, and it follows $c = \sqrt{\mathrm{d}p/\mathrm{d}\rho}$. This is exactly the expression for the speed of sound, and this equation is compariable with the discrete version of wave speed $v=\sqrt{k/m}$. Normally, $\mathrm{d}p/\mathrm{d}\rho$ is a material property given by thermodynamic equation of states.
 
