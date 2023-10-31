@@ -17,7 +17,7 @@ We then see if we can transform the Equation(\ref{eq1}) into simpler form. Intro
 
 $$ \xi = \xi(x,y), \eta = \eta(x,y), \label{eq2}\tag2 $$
 
-where the jacobian determinant of the transformation $\frac{D(\xi, \eta)}{D(x, y)} = \left| \begin{matrix} \xi_x & \xi_y \\ \eta_x & \eta_y \end{matrix} \right| > 0$ near the given point $(x_0, y_0)$. We call this substitution reversible if the above condition is satisfied. Apply the transformation to the original PDE Equation(\ref{eq1}), we have
+where the jacobian determinant of the transformation $\frac{D(\xi, \eta)}{D(x, y)} = \left\| \begin{matrix} \xi_x & \xi_y \\ \eta_x & \eta_y \end{matrix} \right\| > 0$ near the given point $(x_0, y_0)$. We call this substitution reversible if the above condition is satisfied. Apply the transformation to the original PDE Equation(\ref{eq1}), we have
 
 $$ \bar{a}_{11}u_{\xi\xi} + 2\bar{a}_{12}u_{\xi\eta} + \bar{a}_{22}u_{\eta\eta} + \bar{b}_1u_{\xi} + \bar{b}_2u_{\eta} + \bar{c}u = \bar{f}. \label{eq3}\tag3$$
 
