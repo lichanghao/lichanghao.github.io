@@ -13,11 +13,11 @@ Consider the general form of the linear second order PDEs in two dimensions:
 
 $$ a_{11}u_{xx} + 2a_{12}u_{xy} + a_{22}u_{yy} + b_1u_x + b_2u_y + cu = f, \label{eq1}\tag1$$
 
-where all pre-factors and RHS are real functions of the coordinates. We then see if we can transform the Equation(\ref{eq1}) into simpler form. Introduce the substitution of variables
+where all pre-factors and RHS are real functions of the coordinates. We then see if we can transform the Equation (\ref{eq1}) into simpler form. Introduce the substitution of variables
 
 $$ \xi = \xi(x,y), \eta = \eta(x,y), \label{eq2}\tag2 $$
 
-where the jacobian determinant of the transformation $\frac{D(\xi, \eta)}{D(x, y)} = \left\| \begin{matrix} \xi_x & \xi_y \\ \eta_x & \eta_y \end{matrix} \right\| > 0$ near the given point $(x_0, y_0)$. We call this substitution reversible if the above condition is satisfied. Apply the transformation to the original PDE Equation(\ref{eq1}), we have
+where the jacobian determinant of the transformation $\frac{D(\xi, \eta)}{D(x, y)} = \left\| \begin{matrix} \xi_x & \xi_y \\ \eta_x & \eta_y \end{matrix} \right\| > 0$ near the given point $(x_0, y_0)$. We call this substitution reversible if the above condition is satisfied. Apply the transformation to the original PDE (\ref{eq1}), we have
 
 $$ \bar{a}_{11}u_{\xi\xi} + 2\bar{a}_{12}u_{\xi\eta} + \bar{a}_{22}u_{\eta\eta} + \bar{b}_1u_{\xi} + \bar{b}_2u_{\eta} + \bar{c}u = \bar{f}. \label{eq3}\tag3$$
 
@@ -29,11 +29,11 @@ $$  \begin{cases} \bar{a}_{11} = a_{11}\xi_x^2 + 2a_{12}\xi_x\xi_y + a_{22}\xi_y
 
 and $\bar{b}_1, \bar{b}_2, \bar{c}, \bar{f}$ can be similarly obtained using the chain rule.
 
-One can observe that in Equation(\ref{eq4}), the first equation and the third equation share the same formulation, from which we construct the characteristic equation as:
+One can observe that in Equation (\ref{eq4}), the first equation and the third equation share the same formulation, from which we construct the characteristic equation as:
 
 $$ a_{11}\phi_x^2 + 2a_{12}\phi_x\phi_y + a_{22}\phi_y^2 = 0. \label{eq5}\tag5 $$
 
-If we choose $\xi(x, y) = \phi_1(x, y)$ and $\eta(x, y) = \phi_2(x, y)$, where $\phi_1(x, y)$ amd $\phi_2(x, y)$ are two independent solutions of the Equation(\ref{eq5}), the Equation (\ref{3}) will be greatly simplified.
+If we choose $\xi(x, y) = \phi_1(x, y)$ and $\eta(x, y) = \phi_2(x, y)$, where $\phi_1(x, y)$ amd $\phi_2(x, y)$ are two independent solutions of the Equation (\ref{eq5}), the Equation (\ref{eq3}) will be greatly simplified.
 
 
 ## Characteristic lines
@@ -46,7 +46,7 @@ $$\frac{dy}{dx} = \frac{a_{12} - \sqrt{a_{12}^2 - a_{11}a_{22}}}{a_{11}}, \label
 
 and they gives two sets of implicit curves $\phi_{i}(x, y) = C$. We call $\phi_{i}(x, y) = C$ as the characteristic lines of the Equation (\ref{eq1}). Apparently, the PDE solution $u$ are identical along the characteristic lines (if such a line exists in the real space). Normally, this behavior is called "the propagation of information (boundary/initial conditions)".
 
-From the Equation (\ref{6}) we know that real characteristic lines are not guaranteed to exist, and it depends on the sign of $a_{12}^2 - a_{11}a_{12}$. This actually determines the behavior of the given PDE.
+From the Equation (\ref{eq6}) we know that real characteristic lines are not guaranteed to exist, and it depends on the sign of $a_{12}^2 - a_{11}a_{12}$. This actually determines the behavior of the given PDE.
 
 ## Hyperbolic PDEs
 
@@ -56,14 +56,14 @@ A standard simpflication of hyperbolic PDEs is:
 
 $$
 u_{\xi\eta} = Au_{\xi} + Bu_{\eta} + Cu + D,
-\label{eq9}\tag9
+\label{eq7}\tag7
 $$
 
 or
 
 $$
 u_{ss} - u_{tt} = A_1u_s + B_1u_t + C_1u + D_1,
-\label{eq10}\tag{10}
+\label{eq8}\tag{8}
 $$
 
 where $u_{ss}$ is the "strain gradient" term, $u_{tt}$ is the "inertia" term, $A_1u_s$ is the "strain" term, $B_1u_t$ is the "viscosity" term, $C_1u$ is the "harmonic" term. The explanation is based on the generalized elastic viberation process.
@@ -74,17 +74,17 @@ $$
 \begin{cases}
 \frac{\partial^2 u}{\partial t^2} - a^2 \frac{\partial^3 u}{\partial x^2} = f(x, t) \\
 t = 0: u = 0, \frac{\partial u}{\partial t} = 0
-\end{cases}. \label{eq7}\tag7
+\end{cases}. \label{eq9}\tag9
 $$
 
-We can directly apply the principle of linear superposition to give the solution of Equation (\ref{eq7}):
+We can directly apply the principle of linear superposition to give the solution of Equation (\ref{eq9}):
 
 $$
 u(x, t) = \frac{1}{2a} \int_{0}^{t}\int_{x-a(t-\tau)}^{x+a(t-\tau)} f(\xi, \tau) \rm{d}\xi\rm{d}\tau.
-\label{eq8}\tag8
+\label{eq10}\tag10
 $$
 
-It is not difficult to observe that $u(x,t)$ directly depends on the excitation function $f(x,t)$ in the "back light cone" region $\{(\xi, \tau) | 0<\tau<t \ \mathrm{and} \ x-a(t-\tau) < \xi < x+a(t-\tau) \}$. We call this region "the dependence region". On the contrary, the "front light cone" region $\{(\xi, \tau) | t<\tau \ \mathrm{and} \ x-a(t-\tau) < \xi < x+a(t-\tau) \}$ is the "influence region" of $u(x, t)$.
+It is not difficult to observe that $u(x,t)$ directly depends on the excitation function $f(x,t)$ in the "back light cone" region $\left{(\xi, \tau) | 0<\tau<t \ \mathrm{and} \ x-a(t-\tau) < \xi < x+a(t-\tau) \right}$. We call this region "the dependence region". On the contrary, the "front light cone" region $\{(\xi, \tau) | t<\tau \ \mathrm{and} \ x-a(t-\tau) < \xi < x+a(t-\tau) \}$ is the "influence region" of $u(x, t)$.
 
 In the above case, the two characteristic lines $x \pm at = C$ determines the dependence region and the influence region. And the solution $u(x, t) = u(x + at)$ propagates in a constant wave speed $a$.
 
@@ -135,7 +135,7 @@ It is obvious that the solution $u(x, t)$ does not have the form $u(x+at)$ such 
 
 ## Elliptic PDEs
 
-if $a_{12}^2 - a_{11}a_{12} < 0$, we say the PDE is parabolic. In this case, the PDE has no real characteristic line. Here the integration of the Equation (\ref{eq6}) is complex. Assume
+if $a_{12}^2 - a_{11}a_{12} < 0$, we say the PDE is parabolic. In this case, the PDE has no real characteristic line. Here the integration of the Equation (\ref{eq6.1}) and (\ref{eq6.2}) is in complex domain. Assume
 
 $$
 \phi(x, y) = \phi_1(x,y) + i\phi_2(x,y) = C.
@@ -178,6 +178,6 @@ a_{ij}\frac{\partial^2 u}{\partial x_i \partial x_j} + b_i \frac{\partial u}{\pa
 \label{eq19}\tag{19}
 $$
 
-We call the PDE (\ref{eq19}) elliptic if the matrix a_{ij} is positive-definite, hyperbolic if the matrix a_{ij} has $n-1$ eigenvalues with the same sign, $1$ eigenvalue with the opposite sign, and parabolic if a_{ij} is degenerated.
+We call the PDE (\ref{eq19}) elliptic if the matrix $a_{ij}$ is positive-definite, hyperbolic if the matrix $a_{ij}$ has $n-1$ eigenvalues with the same sign, $1$ eigenvalue with the opposite sign, and parabolic if $a_{ij}$ is degenerated.
 
 For other cases, we call the PDE ultrahyperbolic.
