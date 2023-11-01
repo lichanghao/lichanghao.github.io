@@ -19,7 +19,7 @@ $$ \xi = \xi(x,y), \eta = \eta(x,y), \label{eq2}\tag2 $$
 
 where the jacobian determinant of the transformation
 
-$$\frac{D(\xi, \eta)}{D(x, y)} = \left\| \begin{matrix} \xi_x & \xi_y \\ \eta_x & \eta_y \end{matrix} \right\| > 0$$
+$$\frac{D(\xi, \eta)}{D(x, y)} = \left| \begin{matrix} \xi_x & \xi_y \\ \eta_x & \eta_y \end{matrix} \right| > 0$$
 
  near the given point $(x_0, y_0)$. We call this substitution reversible if the above condition is satisfied. Apply the transformation to the original PDE (\ref{eq1}), we have
 
@@ -88,7 +88,7 @@ u(x, t) = \frac{1}{2a} \int_{0}^{t}\int_{x-a(t-\tau)}^{x+a(t-\tau)} f(\xi, \tau)
 \label{eq10}\tag10
 $$
 
-It is not difficult to observe that $u(x,t)$ directly depends on the excitation function $f(x,t)$ in the "back light cone" region $\left{(\xi, \tau) | 0<\tau<t \ \mathrm{and} \ x-a(t-\tau) < \xi < x+a(t-\tau) \right}$. We call this region "the dependence region". On the contrary, the "front light cone" region $\{(\xi, \tau) | t<\tau \ \mathrm{and} \ x-a(t-\tau) < \xi < x+a(t-\tau) \}$ is the "influence region" of $u(x, t)$.
+It is not difficult to observe that $u(x,t)$ directly depends on the excitation function $f(x,t)$ in the "back light cone" region $\left\{(\xi, \tau) | 0<\tau<t \ \mathrm{and} \ x-a(t-\tau) < \xi < x+a(t-\tau) \right\}$. We call this region "the dependence region". On the contrary, the "front light cone" region $\left\{(\xi, \tau) | t<\tau \ \mathrm{and} \ x-a(t-\tau) < \xi < x+a(t-\tau) \right\}$ is the "influence region" of $u(x, t)$.
 
 In the above case, the two characteristic lines $x \pm at = C$ determines the dependence region and the influence region. And the solution $u(x, t) = u(x + at)$ propagates in a constant wave speed $a$.
 
