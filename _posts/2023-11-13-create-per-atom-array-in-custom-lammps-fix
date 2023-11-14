@@ -2,7 +2,7 @@
 title:             "Create per-atom array in custom LAMMPS fix command"
 date:              2023-11-13
 permalink:         /posts/2023/11/13/create-per-atom-array-in-custom-lammps-fix
-tags:              LAMMPS
+tags:              Note
 ---
 
 This post is a note on coding custom fix command in LAMMPS.
@@ -15,7 +15,7 @@ According to the [official documentation](https://docs.lammps.org/Manual.html) a
 
 I have written several in-house LAMMPS fix command by myself. Due to the great extensibility of the LAMMPS code design, the programmer can just implement his own fix command by only one pair of cpp and header files. 
 
-The first thing for a new fix command is naming the cpp, header, and the class. For example, the implementation of NVE time integration is contained in `fix_nve.cpp` and `fix_nve.h`, where the class name is `FixNVE`. It should be note that the developer needs to use a special marco to register the name of this fix to the LAMMPS main program. An example is:
+The first thing for a new fix command is naming the cpp, header, and the class. For example, the implementation of NVE time integration is contained in `fix_nve.cpp` and `fix_nve.h`, where the class name is `FixNVE`. It should be noted that the developer needs to use a special marco to register the name of this fix to the LAMMPS main program. An example is:
 
 C++
 ```
@@ -32,5 +32,27 @@ In the marco function `FixStyle()`, the first argument is the name of this fix, 
 
 Fix commands are powerful because they can be invoked in almost every mini-step of the LAMMPS time integration, and they support creating different kinds of data structures and have access to all information that LAMMPS creates. Follow the examples in [Steve's talk slides](https://www.lammps.org/tutorials/italy14/italy_modify_Mar14.pdf) to get more hints.
 
-The behavior of the fix can be tuned by setting the inherited flags in `fix.h`, which control the data structure, output, and parallel behavior of your own fix
+The behavior of the fix can be tuned by setting the inherited flags in `fix.h`, which control the data structure, output, and parallel behavior of your own fix. Also, several bit-wise masks can be invoked to tell the LAMMPS main program, how the fix should take effect during different stages of the time integration. See the following examples:
 
+C++
+```
+# in the constructor of your custom fix class
+  dynamic_group_allow = 1;
+  peratom_flag = 1;
+  size_peratom_cols = 0;
+  peratom_freq = 1;
+  time_integrate = 1;
+  create_attribute = 1;
+```
+
+C++
+```
+int FixNVE::setmask()
+{
+  // define fix behavior during the timestep
+  int mask = 0;
+  mask |= INITIAL_INTEGRATE;
+  mask |= FINAL_INTEGRATE;
+  return mask;
+}
+```
