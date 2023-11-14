@@ -1,7 +1,7 @@
 ---
 title:             "Create per-atom array in custom LAMMPS fix command"
 date:              2023-11-13
-permalink:         /posts/2023/11/13/create-per-atom-array-in-custom-lammps-fix
+permalink:         /posts/2023/11/13/custom-lammps-fix
 tags:              Note
 ---
 
