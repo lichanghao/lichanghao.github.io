@@ -2,7 +2,7 @@
 title:             "Coding custom LAMMPS fix command"
 date:              2023-11-13
 permalink:         /posts/2023/11/13/custom-lammps-fix
-tags:              Note
+tags:              LAMMPS
 ---
 
 This post is a note on coding custom fix command in LAMMPS.

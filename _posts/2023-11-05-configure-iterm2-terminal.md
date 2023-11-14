@@ -2,7 +2,7 @@
 title:             "Configure my iTerm2 terminal on MacOS"
 date:              2023-11-05
 permalink:         /posts/2023/11/05/configure-iterm2-terminal
-tags:              Note
+tags:              Coding
 ---
 
 This post is a note on configuring the iTerm2 terminal on my new laptop.
