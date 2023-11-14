@@ -44,7 +44,8 @@ The behavior of the fix can be tuned by setting the inherited flags in `fix.h`, 
   create_attribute = 1;
 ```
 
-```C++
+
+```cpp
 int FixNVE::setmask()
 {
   // define fix behavior during the timestep
