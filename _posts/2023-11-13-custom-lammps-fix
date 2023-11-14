@@ -17,7 +17,6 @@ I have written several in-house LAMMPS fix command by myself. Due to the great e
 
 The first thing for a new fix command is naming the cpp, header, and the class. For example, the implementation of NVE time integration is contained in `fix_nve.cpp` and `fix_nve.h`, where the class name is `FixNVE`. It should be noted that the developer needs to use a special marco to register the name of this fix to the LAMMPS main program. An example is:
 
-C++
 ```
 #ifdef FIX_CLASS
 // clang-format off
@@ -34,7 +33,7 @@ Fix commands are powerful because they can be invoked in almost every mini-step 
 
 The behavior of the fix can be tuned by setting the inherited flags in `fix.h`, which control the data structure, output, and parallel behavior of your own fix. Also, several bit-wise masks can be invoked to tell the LAMMPS main program, how the fix should take effect during different stages of the time integration. See the following examples:
 
-C++
+
 ```
 # in the constructor of your custom fix class
   dynamic_group_allow = 1;
@@ -45,7 +44,7 @@ C++
   create_attribute = 1;
 ```
 
-C++
+
 ```
 int FixNVE::setmask()
 {
