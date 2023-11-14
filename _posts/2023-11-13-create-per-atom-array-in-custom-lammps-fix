@@ -1,0 +1,36 @@
+---
+title:             "Create per-atom array in custom LAMMPS fix command"
+date:              2023-11-13
+permalink:         /posts/2023/11/13/create-per-atom-array-in-custom-lammps-fix
+tags:              LAMMPS
+---
+
+This post is a note on coding custom fix command in LAMMPS.
+
+## LAMMPS fix command
+
+According to the [official documentation](https://docs.lammps.org/Manual.html) and the [LAMMPS programmer's guide](https://docs.lammps.org/Developer.html), the fix command classes are designed for probing and modifying the computation during (but not limited to) the time integration. The fix style is very versatile and powerful, as it can almost be used to implement anything custom in LAMMPS.
+
+## Name your custom fix
+
+I have written several in-house LAMMPS fix command by myself. Due to the great extensibility of the LAMMPS code design, the programmer can just implement his own fix command by only one pair of cpp and header files. 
+
+The first thing for a new fix command is naming the cpp, header, and the class. For example, the implementation of NVE time integration is contained in `fix_nve.cpp` and `fix_nve.h`, where the class name is `FixNVE`. It should be note that the developer needs to use a special marco to register the name of this fix to the LAMMPS main program. An example is:
+
+C++
+```
+#ifdef FIX_CLASS
+// clang-format off
+FixStyle(nve,FixNVE);
+// clang-format on
+#else
+```
+
+In the marco function `FixStyle()`, the first argument is the name of this fix, such that the corresponding command in the input file will be `fix nve ...`. The second argument is the name of the C++ class in your code.
+
+## Define the invoking timing of your fix
+
+Fix commands are powerful because they can be invoked in almost every mini-step of the LAMMPS time integration, and they support creating different kinds of data structures and have access to all information that LAMMPS creates. Follow the examples in [Steve's talk slides](https://www.lammps.org/tutorials/italy14/italy_modify_Mar14.pdf) to get more hints.
+
+The behavior of the fix can be tuned by setting the inherited flags in `fix.h`, which control the data structure, output, and parallel behavior of your own fix
+
