@@ -17,7 +17,7 @@ I have written several in-house LAMMPS fix command by myself. Due to the great e
 
 The first thing for a new fix command is naming the cpp, header, and the class. For example, the implementation of NVE time integration is contained in `fix_nve.cpp` and `fix_nve.h`, where the class name is `FixNVE`. It should be noted that the developer needs to use a special marco to register the name of this fix to the LAMMPS main program. An example is:
 
-```C++
+```cpp
 #ifdef FIX_CLASS
 // clang-format off
 FixStyle(nve,FixNVE);
@@ -34,7 +34,7 @@ Fix commands are powerful because they can be invoked in almost every mini-step 
 The behavior of the fix can be tuned by setting the inherited flags in `fix.h`, which control the data structure, output, and parallel behavior of your own fix. Also, several bit-wise masks can be invoked to tell the LAMMPS main program, which define how the fix should take effect during different stages of the time integration. See the following examples:
 
 
-```C++
+```cpp
 // in the constructor of your custom fix class
   dynamic_group_allow = 1;
   peratom_flag = 1;
@@ -61,7 +61,7 @@ See the source code comments of `fix.h` or the [LAMMPS Programmer Guide](https:/
 
 Fix commands support creating user-defined data structure associated to each atom or each local processor. For the array (vector or tensor) of C++ primitive types (int, float, etc.), use the pre-defined utility function for allocating memory:
 
-```C++
+```cpp
 // add this two line to the class constructor
   FixFiberSliding::grow_arrays(atom->nmax); // overrided function allocating per-atom array
   atom->add_callback(Atom::GROW); // register the behavior of this fix to the atom class
@@ -69,7 +69,7 @@ Fix commands support creating user-defined data structure associated to each ato
 
 The definition of `grow_arrays()`:
 
-```C++
+```cpp
 void FixFiberSliding::grow_arrays(int nmax)
 {
   memory->grow(atom_dislocation_label, nmax, "fiber/sliding:atom_dislocation_label");
@@ -79,7 +79,7 @@ void FixFiberSliding::grow_arrays(int nmax)
 
 Also, the programmer needs to override `memory_usage()`, `copy_arrays()`, `pack_exchange()` and `unpack_exchange()` to ensure the correct behavior of parallel computing. LAMMPS will automatically invoke those functions, but the programmer needs to make sure the overrided logic is correct. See the following examples:
 
-```C++
+```cpp
 /* ----------------------------------------------------------------------
    memory usage of local atom-based array
 ------------------------------------------------------------------------- */
@@ -143,7 +143,7 @@ int FixFiberSliding::unpack_exchange(int nlocal, double *buf)
 
 Note that ```set_arrays()``` is not mandatory. As long as the memory communicating logic is correct, LAMMPS will automatically take care of the rest part of the parallel algorithm, and an array with the name of the fix ID can be directly used in the input script for output:
 
-```
+```bash
 // this fix defines a scalar on each atom, which can be refered as f_1
 fix 1 fiber/sliding ...
 ```
