@@ -23,13 +23,13 @@ The [official guide for install VASP 6.x.x](https://www.vasp.at/wiki/index.php/I
 
 Here goes some critical step you need to do, to successfully compile and run VASP on the MacOS system:
 
-1. Install dependencies.
+Install dependencies.
 
 ```zsh
 brew install gcc openmpi scalapack fftw qd openblas hdf5
 ```
 
-2. Modify the `makefile.include`. Here is my final version of the makefile. Note that you need to manually modify several places for your compiler (I am using `gcc-11.4`), and the absolute path of `BLAS`, `LAPACK`, `FFTW` and `hdf5`. No need to touch `makefile`. Follow [this blog](https://gist.github.com/janosh/a484f3842b600b60cd575440e99455c0) for more details.
+Modify the `makefile.include`. Here is my final version of the makefile. Note that you need to manually modify several places for your compiler (I am using `gcc-11.4`), and the absolute path of `BLAS`, `LAPACK`, `FFTW` and `hdf5`. No need to touch `makefile`. Follow [this blog](https://gist.github.com/janosh/a484f3842b600b60cd575440e99455c0) for more details.
 
 ```makefile
 # Default precompiler options
@@ -128,9 +128,9 @@ INCS       += -I$(HDF5_ROOT)/include
 #LLIBS      += -ldl
 ```
 
-3. Further change `src/parser/makefile`. Change the line 16 to `ar vq libparser.a $(CPPOBJ_PARS) $(COBJ_PARS)`. Otherwise, the compilation cannot pass.
+Further change `src/parser/makefile`. Change the line 16 to `ar vq libparser.a $(CPPOBJ_PARS) $(COBJ_PARS)`. Otherwise, the compilation cannot pass.
 
-4. Now the compilation should be okay, which means you have executables as `bin/vasp-std`. However, successful compilation does not guarantee 100% correctness. You need to follow [this discussion](https://www.vasp.at/forum/viewtopic.php?t=17831) to modify few lines of `src/reader_base.F`, to make sure VASP can deal with the input file correctly. This essentially means you need to change the original definition of the variable `flag_value`
+Now the compilation should be okay, which means you have executables as `bin/vasp-std`. However, successful compilation does not guarantee 100% correctness. You need to follow [this discussion](https://www.vasp.at/forum/viewtopic.php?t=17831) to modify few lines of `src/reader_base.F`, to make sure VASP can deal with the input file correctly. This essentially means you need to change the original definition of the variable `flag_value`
 
 ```c++
 intent(in)  :: flag_name
@@ -142,9 +142,9 @@ to
 intent(inout)  :: flag_name
 ```
 
-5. Note that VASP 6.1.0 test suites cannot be compiled on MacOS due to bugs. See the [notes of developer](https://www.vasp.at/info/post/bugfix-in-testsuite-vasp6/).
+Note that VASP 6.1.0 test suites cannot be compiled on MacOS due to bugs. See the [notes of developer](https://www.vasp.at/info/post/bugfix-in-testsuite-vasp6/).
 
-6. Install and configure `atomate2`, which is a manager for high-throughput simulations. Follow the [official guide of installation](https://materialsproject.github.io/atomate2/user/install.html) to link `atomate2` with VASP. The only thing you need to notice is that, the URI provided from MangoDB is slightly different from the format that `atomate2` needs. You need to append the name of your database in the middle, following this format:
+Install and configure `atomate2`, which is a manager for high-throughput simulations. Follow the [official guide of installation](https://materialsproject.github.io/atomate2/user/install.html) to link `atomate2` with VASP. The only thing you need to notice is that, the URI provided from MangoDB is slightly different from the format that `atomate2` needs. You need to append the name of your database in the middle, following this format:
 
 ```html
 mongodb+srv://<<USERNAME>>:<<PASSWORD>>@<<HOST>>/<<DB_NAME>>?retryWrites=true&w=majority
