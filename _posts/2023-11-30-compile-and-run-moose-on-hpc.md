@@ -7,7 +7,7 @@ tags:              Moose
 
 This post is a note on installing and running the finite element framework MOOSE on HPC.
 
-# Set up installing environment
+## Set up installing environment
 
 Based on the [official instruction](https://mooseframework.inl.gov/getting_started/installation/hpc_install_moose.html), the minimum requirement to compile MOOSE is:
 
@@ -37,7 +37,7 @@ If nothing shows or the returned variable is not something like `mpicc` but `gcc
 export CC=mpicc CXX=mpicxx FC=mpif90 F90=mpif90 F77=mpif77
 ```
 
-# Clone MOOSE
+## Clone MOOSE
 
 ```bash
 mkdir -p ~/projects
@@ -47,7 +47,7 @@ cd moose
 git checkout master
 ```
 
-# Build prerequisite libraries
+## Build prerequisite libraries
 
 MOOSE depends on `PETSc`, `Libmesh` and `WASP`. 
 
@@ -59,7 +59,7 @@ export MOOSE_JOBS=6 METHODS=opt
 ./update_and_rebuild_wasp.sh
 ```
 
-# Compile and test MOOSE
+## Compile and test MOOSE
 
 Now finally MOOSE is ready to compile.
 
@@ -77,7 +77,7 @@ cd ~/projects/moose/test
 
 Note that the test result depends on the environment of your HPC. Some HPC using `slurm` does not allow explicit call of `mpirun`, and this will cause test failure. But as long as the compilation is successful and all dynamic linked library is ready to use, you can directly compile you own program and submit it by `slurm` scripts.
 
-# Submit slurm jobs
+## Submit slurm jobs
 
 Here is an example script:
 
