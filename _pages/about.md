@@ -12,6 +12,8 @@ I am currently a fifth-year Ph.D. student in Penn State University, Department o
 
 News
 ------
+**Dec 07 2023**: Penn State News highlighted our work. Check [the link](https://www.psu.edu/news/research/story/growing-biofilms-actively-alter-host-environment-new-study-reveals/) for more details!
+
 **Oct 11 2023**: Coming back from SES 2023. It was great to talk to many young Ph.D. students like me and exchange ideas with professors!
 
 **Oct 08 2023**: Our collaborative work "Biofilms as self-shaping growing nematics" is online at *Nature Physics*!
