@@ -12,7 +12,7 @@ I am currently a fifth-year Ph.D. student in Penn State University, Department o
 
 News
 ------
-**Mar 50 2024**: Our paper "Agent-based modeling of stress anisotropy driven nematic ordering in growing biofilms" is accepted by *Soft Matter* and highlighted as the back cover!
+**Mar 05 2024**: Our paper "Agent-based modeling of stress anisotropy driven nematic ordering in growing biofilms" is accepted by *Soft Matter* and highlighted as the back cover!
 
 **Dec 07 2023**: Penn State News highlighted our work. Check [the link](https://www.psu.edu/news/research/story/growing-biofilms-actively-alter-host-environment-new-study-reveals/) for more details!
 
