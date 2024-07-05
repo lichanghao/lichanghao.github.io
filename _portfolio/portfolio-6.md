@@ -1,6 +1,6 @@
 ---
 title: "Highly stretchable polymer composite with strain‐enhanced electromagnetic interference shielding effectiveness (Advanced Materials)"
-excerpt: "We proposed a liquid-metal and polymer-based composite with good mechanical and electromagnetic performance. <br/><img src='/images/liquid_metal_AM_fig_1.jpg'>"
+excerpt: "We proposed a liquid-metal and polymer-based composite with good mechanical and electromagnetic performance. <br/><img src='/images/liquid_metal_AM_fig_1.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 

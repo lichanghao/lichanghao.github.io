@@ -1,6 +1,6 @@
 ---
 title: "Mechanical forces drive a reorientation cascade leading to biofilm self-patterning (Nature Communications)"
-excerpt: "We combine agent-based simulations and a minimal two-phase active nematics hydrodynamics model to elaborate the self-patterning mechanism for 2D biofilm layers. <br/><img src='/images/biofilm_NC_fig_1.jpg'>"
+excerpt: "We combine agent-based simulations and a minimal two-phase active nematics hydrodynamics model to elaborate the self-patterning mechanism for 2D biofilm layers. <br/><img src='/images/biofilm_NC_fig_1.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 

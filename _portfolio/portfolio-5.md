@@ -1,6 +1,6 @@
 ---
 title: "Molecular Ferroelectric-Based Flexible Sensors Exhibiting Supersensitivity and Multimodal Capability for Detection (Advanced Materials)"
-excerpt: "We proposed a ultra-sensitive mechanical sensor based on molecular ferroelectrics. Nonlinear FEA and theory for porous materials gave a simple scaling relation for sensor design. <br/><img src='/images/molecular_ferroelectrics_AM_fig_1.jpg'>"
+excerpt: "We proposed a ultra-sensitive mechanical sensor based on molecular ferroelectrics. Nonlinear FEA and theory for porous materials gave a simple scaling relation for sensor design. <br/><img src='/images/molecular_ferroelectrics_AM_fig_1.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 
