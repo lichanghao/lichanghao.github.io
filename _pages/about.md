@@ -12,6 +12,8 @@ I am currently a postdoctoral scholar in Penn State, Department of Biology. My s
 
 News
 ------
+**Sep 03, 2024**: The mini proposal on strain hardening behavior of plant cell walls gets funded by the Center for Engineering Mechanobiology!
+
 **May 23, 2024**: I successfully defended my dissertation!
 
 **Apr 04, 2024**: Our paper "Machine learning traction force maps for contractile cell monolayers" are online in *Extreme Mechanics Letters*.
