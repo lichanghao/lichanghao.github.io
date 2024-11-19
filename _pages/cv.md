@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,32 +10,23 @@ redirect_from:
 {% include base_path %}
 [PDF for my CV (Nov 02, 2024)](http://lichanghao.github.io/files/cv.pdf)
 
-
-# Welcome to My Website
-
-## CV Overview
-
-Here is a brief overview of my CV:
-
 - **Education:**
-  - Ph.D. in Computer Science, XYZ University
-  - M.S. in Computer Science, ABC University
-  - B.S. in Computer Science, DEF University
+  - Ph.D. in Engineering Science and Mechanics, Penn State University
+  - B.S. in Engineering Mechanics, Beihang University
+  - Exchange undergraduate student, University of Tokyo
 
-- **Experience:**
-  - Software Engineer at Company A
-  - Research Assistant at University B
-  - Intern at Company C
+- **Research Interests**
+  - Nonlinear, history-dependent mechanics and rheology of living biological materials
+  - Multiscale modeling methods, physics-informed machine learning, parallel and high-performance computing
 
 - **Skills:**
-  - Programming Languages: Python, Java, C++
-  - Web Development: HTML, CSS, JavaScript
-  - Data Analysis: R, SQL
+  - Large scale particle-based simulations
+  - Nonlinear, time-dependent, multi-physics continuum modeling
+  - Coding customized simulation toolkits (C++, Fortran, Python)
+  - Interdisciplinary knowledge base including engineering mechanics, applied mathematics, physics, and biology
+  - Solid training on scientific writing and rich experience working with experimental collaborators
 
-- **Publications:**
-  - "Title of Paper 1", Journal Name, Year
-  - "Title of Paper 2", Conference Name, Year
-
-- **Awards:**
-  - Best Paper Award at Conference X
-  - Dean's List at University Y
+- **Selected Awards:**
+  - Trainee Pilot Awards of Center for Engineering Mechanobiology (CEMB), 2024
+  - Harry G. Miller Fellowship in Engineering, 2020
+  - Penn State University Graduate Fellowship, 2018
