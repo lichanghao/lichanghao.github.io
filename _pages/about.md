@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a postdoctoral scholar in Penn State, Department of Biology. My study area is Theoretical and Computational Mechanics, using continuum and coarse-grained modeling to explore highly interdisciplinary problems in Mechanics, Material Science and Biology.
+I am currently a postdoctoral scholar in Penn State, Department of Biology. My research interests are modeling nonlinear mechanics and rheology of active biological materials.
 
 News
 ------
