@@ -1,5 +1,5 @@
 ---
-title: "Machine learning traction force maps of cell monolayers (Arxiv)"
+title: "Machine learning traction force maps of cell monolayers (Extreme Mechanics Letters)"
 excerpt: "We developed a machine learning model to predict traction force maps for contractile cell monolayers. <br/><img src='/images/ML_TFM_arxiv_fig_1.jpg' width='500' height='300'>"
 collection: portfolio
 ---

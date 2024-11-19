@@ -24,7 +24,7 @@ redirect_from:
   - Nonlinear, time-dependent, multi-physics continuum modeling
   - Coding customized simulation toolkits (C++, Fortran, Python)
   - Interdisciplinary knowledge base including engineering mechanics, applied mathematics, physics, and biology
-  - Solid training on scientific writing and rich experience working with experimental collaborators
+  - Solid training on scientific writing, and rich experience working with experimental collaborators
 
 - **Selected Awards:**
   - Trainee Pilot Awards of Center for Engineering Mechanobiology (CEMB), 2024
