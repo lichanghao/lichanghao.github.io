@@ -11,9 +11,9 @@ redirect_from:
 [PDF for my CV (Nov 02, 2024)](http://lichanghao.github.io/files/cv.pdf)
 
 - **Education:**
-  - Ph.D. in Engineering Science and Mechanics, Penn State University
-  - B.S. in Engineering Mechanics, Beihang University
-  - Exchange undergraduate student, University of Tokyo
+  - Ph.D. in Engineering Science and Mechanics, Penn State University, 2018-2024
+  - B.S. in Engineering Mechanics, Beihang University, 2014-2018
+  - Exchange undergraduate student, University of Tokyo, 2017-2018
 
 - **Research Interests**
   - Nonlinear, history-dependent mechanics and rheology of living biological materials
