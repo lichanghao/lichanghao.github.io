@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a postdoctoral scholar in Penn State, Department of Biology. My research interests are modeling nonlinear mechanics and rheology of active biological materials.
+I am currently a postdoctoral scholar in Penn State, Department of Biology. My research interest is developing theories and models on nonlinear mechanics and rheology of active biological materials.
 
 News
 ------
@@ -22,7 +22,7 @@ News
 
 **Dec 07, 2023**: Penn State News highlighted our work. Check [the link](https://www.psu.edu/news/research/story/growing-biofilms-actively-alter-host-environment-new-study-reveals/) for more details!
 
-**Oct 11, 2023**: Coming back from SES 2023. It was great to talk to many young Ph.D. students like me and exchange ideas with professors!
+**Oct 11, 2023**: Coming back from SES 2023. Happy to present our fresh paper!
 
 **Oct 08, 2023**: Our collaborative work "Biofilms as self-shaping growing nematics" is online at [*Nature Physics*](https://www.nature.com/articles/s41567-023-02221-1)!
 
