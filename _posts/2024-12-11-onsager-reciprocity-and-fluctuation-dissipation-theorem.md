@@ -1,7 +1,7 @@
 ---
 title: "Onsager reprocity and fluctuation-dissipation-theorem"
 date: 2024-12-11
-permalink: /posts/2024/11/18/onsager-reciprocity-and-fluctuation-dissipation-theorem
+permalink: /posts/2024/12/11/onsager-reciprocity-and-fluctuation-dissipation-theorem
 tags: physics
 ---
 
