@@ -23,17 +23,16 @@ $$ \langle \delta A(t) \delta A(0) \rangle \propto \chi(t), $$
   where $\langle \delta A(t) \delta A(0) \rangle$ is the autocorrelation function of a quantity $A$, and $ \chi(t)$ is the linear response to a perturbation.
 
 - The FDT ensures that the dissipation in the system (energy loss due to an external perturbation) is governed by the same mechanisms that generate equilibrium fluctuations.
-
----
+- 
 
 ### **Onsager Reciprocity Relations:**
 - The Onsager reciprocity relations state that, for systems near equilibrium, the cross-coupled transport coefficients are symmetric:
-  \[
-  L_{ij} = L_{ji}.
-  \]
-  Here, \( L_{ij} \) describes the linear response of a flux \( J_i \) (e.g., heat, mass, or momentum flux) to a thermodynamic force \( X_j \) (e.g., temperature gradient or chemical potential difference).
 
-- This symmetry arises from the **microscopic reversibility** (time-reversal symmetry) of the underlying dynamics.
+$$ L_{ij} = L_{ji}. $$
+
+  Here, $L_{ij}$ describes the linear response of a flux $J_i$ (e.g., heat, mass, or momentum flux) to a thermodynamic force $X_j$ (e.g., temperature gradient or chemical potential difference).
+
+- This symmetry arises from the *microscopic reversibility* or *detailed balance* (time-reversal symmetry) of the underlying dynamics.
 
 ---
 
@@ -48,7 +47,7 @@ $$ \langle \delta A(t) \delta A(0) \rangle \propto \chi(t), $$
 
 3. **Dissipation and Transport Coefficients**:
    - The FDT shows that dissipation (characterized by transport coefficients like conductivity or viscosity) is linked to equilibrium fluctuations.
-   - Onsager reciprocity further imposes symmetry conditions on these transport coefficients, ensuring that the cross-terms (\( L_{ij} \)) are symmetric.
+   - Onsager reciprocity further imposes symmetry conditions on these transport coefficients, ensuring that the cross-terms $L_{ij}$ are symmetric.
 
 4. **Practical Example**:
    - In heat conduction and diffusion, FDT relates the thermal conductivity or diffusion coefficient to the autocorrelation of energy or particle currents.
