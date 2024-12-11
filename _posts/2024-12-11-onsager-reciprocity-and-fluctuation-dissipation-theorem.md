@@ -64,3 +64,5 @@ $$ L_{ij} = L_{ji}. $$
 ---
 
 The fluctuation-dissipation theorem provides a framework for understanding how systems respond to perturbations based on equilibrium fluctuations, while Onsager reciprocity ensures symmetry in the coupling between fluxes and forces in linear transport phenomena. Both are consequences of the time-reversal symmetry of microscopic dynamics and together provide a comprehensive description of non-equilibrium systems close to equilibrium.
+
+See a good blog post on StackExchange for more insights: [Self-Contained Explanation of the Fluctuation-Dissipation Theorem?](https://physics.stackexchange.com/questions/825661/self-contained-explanation-of-the-fluctuation-dissipation-theorem?rq=1)
