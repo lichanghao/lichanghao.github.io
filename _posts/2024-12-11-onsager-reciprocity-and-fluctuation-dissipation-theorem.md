@@ -20,15 +20,7 @@ The fluctuation-dissipation theorem (FDT) and Onsager reciprocity relations are 
 
 $$ \langle \delta A(t) \delta A(0) \rangle \propto \chi(t), $$
 
-  where $\langle \delta A(t) \delta A(0) \rangle$ is the autocorrelation function of a quantity $A$, and $ \chi(t)$ is the linear response to a perturbation. For example, the average of internal energy for canonical ensemble is 
-  
-$$ \langle E \rangle = \frac{1}{Z} \sum E \exp{(-\beta E)} = -\frac{\partial \ln{Z}}{\partial \beta}, $$
-
-  where $\beta = \frac{1}{k_{\mathrm{B}} T}$ and $Z = \sum \exp{(-\beta E)}$ is the partition function. It is not difficult to further derive that
-
-$$ \langle E^2 \rangle - \langle E \rangle^2 = k_{\mathrm{B}}T^2 \frac{\partial}{\partial T} \langle E \rangle, $$
-
-  where $\frac{\partial}{\partial T} \langle E \rangle$ is the specific heat. 
+  where $\langle \delta A(t) \delta A(0) \rangle$ is the autocorrelation function of a quantity $A$, and $ \chi(t)$ is the linear response to a perturbation. 
 
 - The FDT ensures that the dissipation in the system (energy loss due to an external perturbation) is governed by the same mechanisms that generate equilibrium fluctuations.
 
