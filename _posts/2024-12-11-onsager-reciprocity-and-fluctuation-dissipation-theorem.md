@@ -5,20 +5,22 @@ permalink: /posts/2024/11/18/onsager-reciprocity-and-fluctuation-dissipation-the
 tags: physics
 ---
 
-### **Relation Between Fluctuation-Dissipation Theorem and Onsager Reciprocity**
+This blog post is the notes on the relation (or difference) between Onsager reciprocity and fluctuation-dissipation-theorem.
 
-The **fluctuation-dissipation theorem (FDT)** and **Onsager reciprocity relations** are foundational principles in nonequilibrium statistical mechanics, describing the behavior of systems near thermodynamic equilibrium. They are deeply interconnected, as both arise from the underlying time-reversal symmetry of microscopic dynamics. Here's how they are related:
+## Relation Between Fluctuation-Dissipation Theorem and Onsager Reciprocity
+
+The fluctuation-dissipation theorem (FDT) and Onsager reciprocity relations are foundational principles in non-equilibrium statistical mechanics, describing the behavior of systems *near thermodynamic equilibrium*. They are deeply interconnected, as both arise from the underlying time-reversal symmetry of microscopic dynamics.
 
 ---
 
 ### **Fluctuation-Dissipation Theorem (FDT):**
-- The FDT links **spontaneous fluctuations** in a system at equilibrium to its **response to external perturbations**.
-- Mathematically, it states that the response function (e.g., susceptibility) of a system to a small external force is directly proportional to the correlation function of spontaneous fluctuations in the system.
+- The FDT links spontaneous fluctuations in a system at equilibrium to its response to external perturbations.
+- Mathematically, it states that the response function (e.g., susceptibility or diffusivity) of a system to a small external force is directly proportional to the correlation function of spontaneous fluctuations in the system.
 - Example:
-  \[
-  \langle \delta A(t) \delta A(0) \rangle \propto \chi(t),
-  \]
-  where \( \langle \delta A(t) \delta A(0) \rangle \) is the autocorrelation function of a quantity \( A \), and \( \chi(t) \) is the linear response to a perturbation.
+
+$$ \[\langle \delta A(t) \delta A(0) \rangle \propto \chi(t),\] $$
+
+  where $\( \langle \delta A(t) \delta A(0) \rangle \)$ is the autocorrelation function of a quantity $\( A \)$, and $\( \chi(t) \)$ is the linear response to a perturbation.
 
 - The FDT ensures that the dissipation in the system (energy loss due to an external perturbation) is governed by the same mechanisms that generate equilibrium fluctuations.
 
