@@ -18,9 +18,9 @@ The fluctuation-dissipation theorem (FDT) and Onsager reciprocity relations are 
 - Mathematically, it states that the response function (e.g., susceptibility or diffusivity) of a system to a small external force is directly proportional to the correlation function of spontaneous fluctuations in the system.
 - Example:
 
-$$ \[\langle \delta A(t) \delta A(0) \rangle \propto \chi(t),\] $$
+$$ \langle \delta A(t) \delta A(0) \rangle \propto \chi(t), $$
 
-  where $\( \langle \delta A(t) \delta A(0) \rangle \)$ is the autocorrelation function of a quantity $\( A \)$, and $\( \chi(t) \)$ is the linear response to a perturbation.
+  where $\langle \delta A(t) \delta A(0) \rangle$ is the autocorrelation function of a quantity $A$, and $ \chi(t)$ is the linear response to a perturbation.
 
 - The FDT ensures that the dissipation in the system (energy loss due to an external perturbation) is governed by the same mechanisms that generate equilibrium fluctuations.
 
