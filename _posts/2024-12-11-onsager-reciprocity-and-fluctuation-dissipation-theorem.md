@@ -23,7 +23,7 @@ $$ \langle \delta A(t) \delta A(0) \rangle \propto \chi(t), $$
   where $\langle \delta A(t) \delta A(0) \rangle$ is the autocorrelation function of a quantity $A$, and $ \chi(t)$ is the linear response to a perturbation.
 
 - The FDT ensures that the dissipation in the system (energy loss due to an external perturbation) is governed by the same mechanisms that generate equilibrium fluctuations.
-- 
+
 
 ### **Onsager Reciprocity Relations:**
 - The Onsager reciprocity relations state that, for systems near equilibrium, the cross-coupled transport coefficients are symmetric:
@@ -55,5 +55,4 @@ $$ L_{ij} = L_{ji}. $$
 
 ---
 
-### **Conclusion**:
-The fluctuation-dissipation theorem provides a framework for understanding how systems respond to perturbations based on equilibrium fluctuations, while Onsager reciprocity ensures symmetry in the coupling between fluxes and forces in linear transport phenomena. Both are consequences of the time-reversal symmetry of microscopic dynamics and together provide a comprehensive description of nonequilibrium systems close to equilibrium.
+The fluctuation-dissipation theorem provides a framework for understanding how systems respond to perturbations based on equilibrium fluctuations, while Onsager reciprocity ensures symmetry in the coupling between fluxes and forces in linear transport phenomena. Both are consequences of the time-reversal symmetry of microscopic dynamics and together provide a comprehensive description of non-equilibrium systems close to equilibrium.
